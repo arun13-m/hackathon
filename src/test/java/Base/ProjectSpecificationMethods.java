@@ -17,5 +17,4 @@ public class ProjectSpecificationMethods extends Utilities {
 		browserClose();
 	}
 	
-	
 }
