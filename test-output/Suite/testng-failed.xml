@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.TC_003_ProductSearchAndBrowsingTest">
+        <methods>
+          <include name="productSearchAndBrowsing"/>
+        </methods>
+      </class> <!-- Test.TC_003_ProductSearchAndBrowsingTest -->
+      <class name="Test.TC_008_LogoutTest">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- Test.TC_008_LogoutTest -->
+      <class name="Test.TC_005_CheckoutProcessTest">
+        <methods>
+          <include name="checkoutProcesstest"/>
+        </methods>
+      </class> <!-- Test.TC_005_CheckoutProcessTest -->
+      <class name="Test.TC_004_ShippingCartTest">
+        <methods>
+          <include name="shipingCartTest"/>
+        </methods>
+      </class> <!-- Test.TC_004_ShippingCartTest -->
+      <class name="Test.TC_007_VerificationPageTest">
+        <methods>
+          <include name="verificationMethodsTest"/>
+        </methods>
+      </class> <!-- Test.TC_007_VerificationPageTest -->
+      <class name="Test.TC_006_PaymentMethodsTest">
+        <methods>
+          <include name="paymentMethodsTest"/>
+        </methods>
+      </class> <!-- Test.TC_006_PaymentMethodsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
