@@ -6,31 +6,50 @@
       <class name="Test.TC_003_ProductSearchAndBrowsingTest">
         <methods>
           <include name="productSearchAndBrowsing"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_003_ProductSearchAndBrowsingTest -->
       <class name="Test.TC_008_LogoutTest">
         <methods>
           <include name="logoutTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_008_LogoutTest -->
+      <class name="Test.TC_002_LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
+        </methods>
+      </class> <!-- Test.TC_002_LoginTest -->
       <class name="Test.TC_005_CheckoutProcessTest">
         <methods>
           <include name="checkoutProcesstest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_005_CheckoutProcessTest -->
       <class name="Test.TC_004_ShippingCartTest">
         <methods>
           <include name="shipingCartTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_004_ShippingCartTest -->
       <class name="Test.TC_007_VerificationPageTest">
         <methods>
           <include name="verificationMethodsTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_007_VerificationPageTest -->
       <class name="Test.TC_006_PaymentMethodsTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="paymentMethodsTest"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_006_PaymentMethodsTest -->
     </classes>

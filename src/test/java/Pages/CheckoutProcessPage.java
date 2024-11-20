@@ -25,7 +25,7 @@ public class CheckoutProcessPage extends ProjectSpecificationMethods {
 	}
 	
 	public CheckoutProcessPage address() {
-		driver.findElement(By.id("BillingNewAddress_Address1")).sendKeys("Chennai");
+		driver.findElement(By.id("BillingNewAddress_Address1")).sendKeys("Chennai, TamilNadu");
 		return this;
 	}
 	
