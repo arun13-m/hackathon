@@ -21,9 +21,7 @@ public class TC_001_RegisterTest extends ProjectSpecificationMethods {
 		.passWord()
 		.confirmPassword()
 		.registerButton()
-		.browserClose();
-		
-		//.logout();
+		.logout();
 		
 	}
 	

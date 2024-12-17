@@ -1,11 +1,9 @@
 package Utility;
 
 import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class Utilities {
 
@@ -17,12 +15,11 @@ public class Utilities {
 		driver = new ChromeDriver();
 		driver.get("https://demo.nopcommerce.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 	
 	public void browserClose() {
 		driver.close();
 	}
-	
 		
 }

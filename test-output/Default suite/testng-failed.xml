@@ -6,6 +6,8 @@
       <class name="Test.TC_001_RegisterTest">
         <methods>
           <include name="registerTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_001_RegisterTest -->
     </classes>

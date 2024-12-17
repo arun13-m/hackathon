@@ -13,13 +13,11 @@ public class UserLoginPage extends ProjectSpecificationMethods {
 	
 	public UserLoginPage regEmail() throws InterruptedException {
 		driver.findElement(By.id("Email")).sendKeys("arunm1234@gmail.com");
-		Thread.sleep(1000);
 		return this;
 	}
 	
 	public UserLoginPage regPassword() throws InterruptedException {
 		driver.findElement(By.id("Password")).sendKeys("arun.1234");
-		Thread.sleep(1000);
 		return this;
 	}
 	

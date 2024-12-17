@@ -31,6 +31,13 @@
           <include name="launchBrowserAndURL"/>
         </methods>
       </class> <!-- Test.TC_005_CheckoutProcessTest -->
+      <class name="Test.TC_001_RegisterTest">
+        <methods>
+          <include name="registerTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserAndURL"/>
+        </methods>
+      </class> <!-- Test.TC_001_RegisterTest -->
       <class name="Test.TC_004_ShippingCartTest">
         <methods>
           <include name="shipingCartTest"/>
